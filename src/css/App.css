@@ -1,0 +1,38 @@
+.taxa-component {
+  background-color: #c5d5cb;
+}
+.bg {
+  /* The image used */
+  background: url("../images/temp_wallpaper.jpg") no-repeat;
+  /* Full height */
+  height: 800px;
+  width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* zoom effect */
+  transition: transform 0.8s;
+  margin: 0 auto;
+}
+.bg:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+#taxaProfile {
+  height: auto;
+  width: 100%;
+}
+.location {
+  color: grey;
+}
+.fa-instagram {
+  background: none;
+  width: 50px;
+  font-size: 25px !important;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
